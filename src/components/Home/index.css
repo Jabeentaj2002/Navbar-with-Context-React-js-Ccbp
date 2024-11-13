@@ -1,0 +1,41 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.home-navbar-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-container {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-theme-home {
+  height: 150px;
+  width: 150px;
+}
+
+.light-theme-heading {
+  color: #171f46;
+  font-size: 36px;
+}
+
+.dark-theme-heading {
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.home-dark-bg-color {
+  background-color: #000000;
+}
+
+.home-light-bg-color {
+  background-color: #ffffff;
+}

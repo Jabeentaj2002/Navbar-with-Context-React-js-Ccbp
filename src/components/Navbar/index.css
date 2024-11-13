@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.navbar-container {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px 0 15px;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.light-theme-logo {
+  height: 30px;
+  width: 30px;
+}
+
+.link-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.link-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #171f46;
+  margin-right: 15px;
+}
+
+.theme-button {
+  background-color: transparent;
+  border: 0;
+}
+
+.theme-btn {
+  height: 30px;
+  width: 30px;
+}
+
+.dark-theme {
+  background-color: #334155;
+}
+
+.dark-link-item {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}

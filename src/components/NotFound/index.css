@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dark-bg-color {
+  background-color: #000000;
+}
+
+.not-found-img {
+  height: 150px;
+  width: 150px;
+}
+
+.not-found-heading {
+  color: #ffffff;
+}

@@ -1,0 +1,37 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+
+.about-navbar-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.light-theme-about {
+  height: 150px;
+  width: 150px;
+}
+
+.light-theme-about-heading {
+  color: #171f46;
+  font-size: 36px;
+}
+
+.dark-theme-about-heading {
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.about-dark-bg-color {
+  background-color: #000000;
+}
